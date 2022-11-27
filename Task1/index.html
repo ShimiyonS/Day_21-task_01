@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDB Movies Details</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <span>
+            <h1 id="title" class="text-center">IMDB</h1>
+        </span>
+        <div class="headder">
+            <span>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcTGB44VRGlRGy1QyADyoTXFFhEoWqVHMl1w&usqp=CAU">
+            </span>
+            
+            <span class="search">
+                <form onsubmit="submitButton(event)">
+                    <input id="movie_name" type="text" placeholder="     Enter The Movie Name">
+                    <button type="search"><i class="fa fa-search" style="font-size: 18px;"></i></button>
+                </form>
+            </span>
+            <script src="./script.js"></script>
+        </div>
+        <div id="details" class="card container mt-3 p-0 border-0 text-center ">
+
+        </div>
+       
+    </div>
+   
+</body>
+</html>
